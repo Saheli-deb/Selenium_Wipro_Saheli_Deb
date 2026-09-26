@@ -1,5 +1,6 @@
 # CAPSTONE PROJECT 2 
 ## SAHELI DEB -- 12023052019071
+## video link https://drive.google.com/file/d/1chC_bbRtW4101y7IZOzxt53f_ztz-0j2/view?usp=sharing
 A structured **Selenium automation and testing repository** containing a complete capstone automation framework, Selenium lab work, training exercises, API/BDD-related practice, Robot Framework work, and supporting certificates.
 
 This repository brings together the practical work completed during Selenium/Web Automation training in one organized place.
