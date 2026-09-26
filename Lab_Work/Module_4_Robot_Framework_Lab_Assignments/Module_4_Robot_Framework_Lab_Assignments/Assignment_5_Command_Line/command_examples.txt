@@ -1,0 +1,19 @@
+Robot Framework command-line examples
+
+Run all tests:
+robot tests/
+
+Run one test:
+robot --test "Verify Basic Calculation" basic.robot
+
+Run by tag:
+robot --include smoke tests/
+
+Specify output directory:
+robot -d results tests/
+
+Pass a variable:
+robot -v BROWSER:chrome tests/
+
+Dry run:
+robot --dryrun tests/

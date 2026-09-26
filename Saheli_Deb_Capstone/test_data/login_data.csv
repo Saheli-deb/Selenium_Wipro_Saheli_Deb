@@ -1,0 +1,3 @@
+email,password,expected
+invalid_user_automation@test.com,WrongPassword123,false
+another_invalid@test.com,IncorrectPassword456,false

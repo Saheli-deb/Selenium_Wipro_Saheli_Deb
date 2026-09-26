@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Install') {
+            steps {
+                bat 'python -m pip install -r requirements.txt'
+            }
+        }
+
+        stage('Robot Tests') {
+            steps {
+                bat 'robot -d results tests'
+            }
+        }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: 'results/**', allowEmptyArchive: true
+        }
+    }
+}
